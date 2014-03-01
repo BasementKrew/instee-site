@@ -1,0 +1,198 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+
+}
+a
+{
+  color: #232323;
+}
+a:hover
+{
+  color: #333;
+  text-decoration: none !important;
+}
+
+.site-header
+{
+  background-color: #2b3848;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  border-top: 5px solid #009ADB;
+  background-position: 50% 0px;
+  background-image: url("/assets/images/bg.jpg");
+}
+.heroRow
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.hero
+{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 104px;
+}
+.heroText
+{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 48px;
+}
+.mainContent
+{
+  margin-top: 40px;
+}
+.circle
+{
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  /*border: 6px solid #009ADB;*/
+  background-color: #009ADB;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 30px auto;
+}
+.circleText
+{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 100;
+}
+.circleHeader
+{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 36px;
+  font-weight: 100;
+}
+.video
+{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F2F2F2;
+}
+.videoPlayer 
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoPlayer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.button-footer
+{
+  background-color: #009ADB;
+  padding-bottom: 40px;
+}
+.bottom
+{
+  background-color: #232323;
+  height: 100px;
+}
+.buttonHeader
+{
+  margin-top: 40px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 42px;
+  color: #FFF;
+  font-weight: 100;
+}
+.buttonSubHeader
+{
+  margin-top: 20px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 24px;
+  color: #FFF;
+  font-weight: 100;
+}
+.button
+{
+  margin-top: 40px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 36px;
+  color: #FFF;
+  border: 2px solid #FFF;
+  width: 50%;
+  font-weight: 100;
+  padding: 10px;
+}
+.button:hover
+{
+  background-color: #0074B5;
+}
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
