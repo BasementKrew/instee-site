@@ -1,7 +1,6 @@
 name: Insteeapp.com
 markdown: redcarpet
 pygments: true
-pygments: true
 permalink: none
-description:  home page for the Instee app and team.
+description:  home page for the Instee app.
 url: http://insteeapp.com
