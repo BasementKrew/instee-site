@@ -2,8 +2,13 @@
 layout: default
 ---
 <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <p class="heroText">Instee Blog</p>
+    </div>
+  </div>
   <h1 class="postHeader">{{ page.title }}</h1>
-  <p class="postDate">Written by {{ page.author }} on {% assign d = page.date | date: "%-d"  %}
+  <p class="postDate">{% assign d = page.date | date: "%-d"  %}
   {{ page.date | date: "%b" }}
   {% case d %}
     {% when '1' or '21' or '31' %}{{ d }}st,
