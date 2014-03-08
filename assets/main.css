@@ -57,10 +57,11 @@ h2
 }
 .hero
 {
+  display: block;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  font-size: 104px;
+  /*font-size: 104px;*/
 }
 .heroText
 {
@@ -68,6 +69,15 @@ h2
   margin-right: auto;
   margin-left: auto;
   font-size: 48px;
+}
+.bubbleIcon
+{
+  height: 100px;
+  width: 100px;
+}
+.bubbleTop
+{
+  height: 40px;
 }
 .mainContent
 {
