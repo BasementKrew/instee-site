@@ -12,9 +12,9 @@ title: Instee Blog
   {% for post in site.posts %}
   <div class="row">
     <div class="post col-md-12">
-      <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
       <p class="postDate">{{ post.date | date: "%b %-d, %Y" }} </p>
-      <p>{{ post.summary }} </p>
+      <p class="summary">{{ post.summary }} </p>
       <a href="{{ post.url }}"><h4>Read more</h4></a>
     </div>
   </div>

@@ -14,7 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-
+  line-height: 1.8;
+  font-size: 18px;
 }
 a
 {
@@ -53,7 +54,7 @@ h2
 .heroRow
 {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .hero
 {
@@ -166,22 +167,17 @@ h2
 .button
 {
   margin-top: 40px;
+  display: block;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  font-size: 36px;
-  color: #FFF;
-  border: 2px solid #FFF;
-  width: 50%;
-  font-weight: 100;
-  padding: 10px;
-}
-.button:hover
-{
-  background-color: #0074B5;
 }
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
+.summary
+{
+  font-size: 24px;
+}
