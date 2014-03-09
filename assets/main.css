@@ -70,6 +70,7 @@ h2
   margin-right: auto;
   margin-left: auto;
   font-size: 48px;
+  text-shadow:1px 1px #000000;
 }
 .bubbleIcon
 {
@@ -176,6 +177,14 @@ h2
   height:auto;
 }
 
+.button:hover{
+  opacity: .8;
+}
+
+a:hover{
+  opacity: .8;
+}
+
 .resize {
   width:35px;
   height: auto;
@@ -185,6 +194,27 @@ table.center
 {
     margin-left:auto;
     margin-right:auto;
+}
+
+.bottomLinks {
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 100;
+}
+
+.bottomLinks:hover{
+  opacity: .8;
+  text-decoration: underline;
+}
+
+.bottomContent
+{
+  font-size: 16px;
+  font-weight: 100;
 }
 
 /*****************************************************************************/
