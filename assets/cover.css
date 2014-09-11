@@ -1,0 +1,106 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #27a8df;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  text-align: middle;
+  vertical-align: middle;
+}
+.cover-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Footer
+ */
+
+.foothead-nav > li > a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+}
+.foothead-nav > li > a:hover,
+.footthead-nav > li > a:focus {
+  background-color: transparent;
+  color: #fff;
+}
+.foothead-nav > .active > a,
+.footthead-nav > .active > a:hover,
+.footthead-nav > .active > a:focus {
+  color: #fff;
+}
+
+.pic{
+  width: 30%;
+  height: auto;
+  min-width: 300px;
+}
+
+.play{
+  max-width: 80px;
+  height: auto;
+  -webkit-transition: all .2s ease-in-out;
+}
+.play:hover{
+  -webkit-transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer*/
+.foothead {
+  position: fixed;
+  bottom: 0;
+}
+.foothead-nav > li {
+  display: inline-block;
+}
+.foothead-nav > li + li {
+  margin-left: 20px;
+}
+
+/* Handle the widths */
+.foothead,
+.cover-container {
+  width: 100%; /* Must be percentage or pixels for horizontal alignment */
+}
+
+}
